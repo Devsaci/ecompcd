@@ -13,7 +13,7 @@ $action = $url[0];
 if (!in_array($action,$route)) {
    echo "Page Error";
 } else {
-    echo "Bienvenue dansla page   ".$action ;
+    echo "Bienvenue dans la page   ".$action ;
 
 }
 ?>
