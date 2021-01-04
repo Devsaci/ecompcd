@@ -9,6 +9,8 @@
 </head>
 <body>
     <h1>fichier Index</h1>
+    [REQUEST_URI] => /ecompcd/
+    [SCRIPT_NAME] => /ecompcd/src/index.php
 </body>
 
 </html>
