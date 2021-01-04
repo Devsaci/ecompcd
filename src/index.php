@@ -20,6 +20,7 @@ if (!in_array($action,$route)) {
     $title = "Page ".$action;
     $content = $function();
     //echo $function;
+    require VIEWS.SP."templates".SP."default.php";
 }
 ?>
 
