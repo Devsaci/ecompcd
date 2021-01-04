@@ -1,6 +1,7 @@
 
 
 <?php
+//Gestionnaire de requettes
 require "include.php";
 
 $url = trim($_SERVER['PATH_INFO'],'/');
