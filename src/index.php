@@ -14,8 +14,9 @@ $action = $url[0];
 if (!in_array($action,$route)) {
    echo "Page Error";
 } else {
-    echo "Bienvenue dans la page   ".$action ;
-
+    //echo "Bienvenue dans la page   ".$action ;
+    $function = "display".ucwords($action)."()";
+    echo $function;
 }
 ?>
 
