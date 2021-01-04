@@ -16,7 +16,7 @@
 </html>
 
 <?php
-print_r($_SERVER['PATH_INFO']);
-$url = explode('/',$_SERVER['PATH_INFO']);
+$url = trim($_SERVER['PATH_INFO'],'/');
+$url = explode('/',$url);
 print_r($url);
 ?>
