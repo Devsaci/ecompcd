@@ -1,22 +1,21 @@
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>fichier Index</h1>
-    [REQUEST_URI] => /ecompcd/
-    [SCRIPT_NAME] => /ecompcd/src/index.php
-</body>
-
-</html>
-
 <?php
+
 $url = trim($_SERVER['PATH_INFO'],'/');
 $url = explode('/',$url);
-print_r($url);
+$route = array("accueil", "contact");
+//print_r($url);
+$action = $url[0];
+// print_r($action);
+
+// controller
+if (!in_array($action,$route)) {
+   echo "Page Error";
+} else {
+    echo "Bienvenue dansla page   ".$action ;
+
+}
 ?>
+
+
