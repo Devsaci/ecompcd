@@ -1,7 +1,4 @@
-<?php
 
-echo "fichier Index";
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,4 +10,9 @@ echo "fichier Index";
 <body>
     <h1>fichier Index</h1>
 </body>
+
 </html>
+
+<?php
+print_r($_SERVER);
+?>
