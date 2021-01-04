@@ -16,8 +16,10 @@ if (!in_array($action,$route)) {
    echo "Page Error";
 } else {
     //echo "Bienvenue dans la page   ".$action ;
-    $function = "display".ucwords($action)."()";
-    echo $function;
+    $function = "display".ucwords($action);
+    $title = "Page ".$action;
+    $content = $function();
+    //echo $function;
 }
 ?>
 
