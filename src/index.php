@@ -1,6 +1,7 @@
 
 
 <?php
+require "include.php";
 
 $url = trim($_SERVER['PATH_INFO'],'/');
 $url = explode('/',$url);
