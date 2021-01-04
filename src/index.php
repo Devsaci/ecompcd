@@ -17,4 +17,6 @@
 
 <?php
 print_r($_SERVER['PATH_INFO']);
+$url = explode('/',$_SERVER['PATH_INFO']);
+print_r($url);
 ?>
