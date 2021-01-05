@@ -10,5 +10,15 @@ function __construct(){
         echo $th->getMessage();
     }
 }
+function createCustomers(){
+
+    
+}
+
+
+
+
+
+
 
 }
