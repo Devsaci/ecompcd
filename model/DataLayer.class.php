@@ -11,7 +11,7 @@ function __construct(){
     }
 }
 function createCustomers($pseudo,$email,$password){
-
+    $sql = "INSERT INTO customers (pseudo,email,password) VALUES (:pseudo,:email,:password)";
 
 }
 
