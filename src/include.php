@@ -1,4 +1,5 @@
 <?php
+//print_r($_SERVER);//exit();
 //definition des constante
 define("SRC", dirname(__FILE__));
 //print_r(SRC);//exit();
@@ -13,7 +14,8 @@ define("CONFIG", ROOT.SP."config");
 require CONFIG.SP."config.php";
 require MODEL.SP."DataLayer.class.php";
 // Instanciation de DataLayer
-$data = new DataLayer();exit();
+$data = new DataLayer();
+
 
 
 
