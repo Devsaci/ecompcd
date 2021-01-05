@@ -10,9 +10,9 @@ function __construct(){
         echo $th->getMessage();
     }
 }
-function createCustomers(){
+function createCustomers($pseudo,$email,$password){
 
-    
+
 }
 
 
