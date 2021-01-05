@@ -19,8 +19,9 @@ try {
         ':email' => $email,
         ':password' => ($password)
     ));
-} catch (\Throwable $th) {
-    //throw $th;
+
+} catch (PDOException $th) {
+    return NULL;
 }
 }
 
