@@ -13,7 +13,8 @@ $action = $url[0];
 
 // controller
 if (!in_array($action,$route)) {
-   echo "Page Error";
+    $title = "Page Error";
+    $content = "URL introuvable !";
 } else {
     //echo "Bienvenue dans la page   ".$action ;
     $function = "display".ucwords($action);
