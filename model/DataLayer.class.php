@@ -20,6 +20,11 @@ try {
         ':password' => ($password)
     ));
 
+    if($var){
+        return TRUE;
+    }else{
+        return FALSE;
+    }
 } catch (PDOException $th) {
     return NULL;
 }
