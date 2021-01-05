@@ -15,7 +15,9 @@ require CONFIG.SP."config.php";
 require MODEL.SP."DataLayer.class.php";
 // Instanciation de DataLayer
 $data = new DataLayer();
-
+//TEST function createCustomers
+$var = $data->createCustomers('saci','saci@mail.com',1234);
+die($var);
 
 
 
